@@ -40,5 +40,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/raw-genius-frontend-2023
+          publish_dir: dist/angular_pages
           enable_jekyll: true
